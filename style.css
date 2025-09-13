@@ -1,0 +1,187 @@
+<<<<<<< HEAD
+/* :root {
+    --color-red-300:  oklch(80.8% 0.114 19.571); 
+}
+
+header {
+    background: var(--color-red-300);
+} */
+
+.navlinks li {
+  cursor: pointer;
+}
+
+.navlinks li:hover::after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  animation: linkunderline 400ms ease;
+}
+
+@keyframes linkunderline {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* ---------------------------------------------HERO SECTION----------------------------------- */
+.hero-section div:nth-child(2) {
+  height: 420px;
+  width: 100%;
+}
+
+.hero-section div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#grid1 div,
+#grid2 div,
+#grid3 div,
+#grid4 div,
+#grid5 div,
+#grid6 div {
+  border: none;
+}
+
+#grid1,
+#grid2,
+#grid3,
+#grid4,
+#grid5,
+#grid6 {
+  transition: all 0.5s ease-in-out;
+}
+
+#grid1:hover,
+#grid2:hover,
+#grid3:hover,
+#grid4:hover,
+#grid5:hover,
+#grid6:hover {
+  background: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#grid1:hover > p,
+#grid2:hover > p,
+#grid3:hover > p,
+#grid4:hover > p,
+#grid5:hover > p,
+#grid6:hover > p {
+  color: #fff;
+}
+
+#grid1:hover > .icon,
+#grid2:hover > .icon,
+#grid3:hover > .icon,
+#grid4:hover > .icon,
+#grid5:hover > .icon,
+#grid6:hover > .icon {
+  background-color: #fff;
+}
+=======
+/* :root {
+    --color-red-300:  oklch(80.8% 0.114 19.571); 
+}
+
+header {
+    background: var(--color-red-300);
+} */
+
+.navlinks li {
+  cursor: pointer;
+}
+
+.navlinks li:hover::after {
+  content: "";
+  background-color: white;
+  width: 100%;
+  height: 2px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  animation: linkunderline 400ms ease;
+}
+
+@keyframes linkunderline {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+/* ---------------------------------------------HERO SECTION----------------------------------- */
+.hero-section div:nth-child(2) {
+  height: 420px;
+  width: 100%;
+}
+
+.hero-section div:nth-child(2) img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#grid1 div,
+#grid2 div,
+#grid3 div,
+#grid4 div,
+#grid5 div,
+#grid6 div {
+  border: none;
+}
+
+#grid1,
+#grid2,
+#grid3,
+#grid4,
+#grid5,
+#grid6 {
+  transition: all 0.5s ease-in-out;
+}
+
+#grid1:hover,
+#grid2:hover,
+#grid3:hover,
+#grid4:hover,
+#grid5:hover,
+#grid6:hover {
+  background: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#grid1:hover > p,
+#grid2:hover > p,
+#grid3:hover > p,
+#grid4:hover > p,
+#grid5:hover > p,
+#grid6:hover > p {
+  color: #fff;
+}
+
+#grid1:hover > .icon,
+#grid2:hover > .icon,
+#grid3:hover > .icon,
+#grid4:hover > .icon,
+#grid5:hover > .icon,
+#grid6:hover > .icon {
+  background-color: #fff;
+}
+>>>>>>> 39bb863ef3ac0836e1fbd8b7d9758f9b7214cd17
